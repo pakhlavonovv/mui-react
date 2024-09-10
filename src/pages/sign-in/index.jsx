@@ -9,6 +9,7 @@ import Notification from '../utils/notification';
 
 const Index = () => {
   const [ form, setForm ] = useState({})
+  const [disabled, setDisabled] = useState(false )
   const [count, setCount] = useState(0)
   const [time, setTime] = useState(10)
   useEffect(() => {
